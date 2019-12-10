@@ -43,7 +43,7 @@ body {
 	float: left;
 }
 #gif {
-	width: 100%;
+	width: 370px;
 	/* height: 100vh; */
 }
 
@@ -108,6 +108,9 @@ button:hover {
 	#demo-gif {
 		width: 100%;
 		height: auto;
+	}
+	#gif {
+		width: 100%;
 	}
 	h1 {
 		font-size: 2rem;
