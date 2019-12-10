@@ -1,0 +1,122 @@
+  /* color pallete
+https://www.color-hex.com/color-palette/83132
+#43ae70	(67,174,112)
+#ffffff	(255,255,255)
+#ff9a00	(255,154,0)
+#43aea6	(67,174,166)
+#9f70d0	(159,112,208) */
+
+* {
+  font-family: "IBM Plex Mono", monospace;
+	box-sizing: border-box;
+	color: #9f70d0;
+	line-height: 1.7rem;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+#title-container {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+body {
+  margin: 2em;
+}
+
+#container {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+
+/* #demo-div {
+	background-color: rgba(159, 112, 208, 0.1);
+	width: 390px;
+	height: 298px;
+	margin: 0 0 1rem 0;
+	padding: 10px;
+	float: left;
+} */
+
+#demo {
+	width: 60%;
+	margin: 0 0 1rem 0;
+	/* width: 370px; */
+}
+
+#leader-board {
+	float: right;
+	padding: 10px;
+	border: 1px solid;
+}
+
+#leader-title {
+	margin-top: 0;
+}
+
+#links {
+	clear: both;
+}
+
+.link {
+  background-color: #fff;
+  color: #ff9a00;
+  padding: 2px;
+  transition: color 0.5s;
+}
+.link:hover {
+  color: #fff;
+  background-color: #ff9a00;
+  text-decoration: none;
+}
+
+.btn-wrapper {
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+  border: 1px solid;
+  font-size: 1rem;
+  height: 40px;
+  /* width: 120px; */
+  color: rgba(159, 112, 208, 1);
+  transition: color 0.3s;
+	transition: background-color 0.3s;
+	padding: 0 1.5rem 0 1.5rem;
+}
+
+button:hover {
+  border: 1px solid rgba(159, 112, 208, 1);
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgba(159, 112, 208, 1);
+}
+
+#footer {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+@media only screen and (max-width: 680px) {
+	/* #demo-div {
+		width: 100%;
+		height: auto;
+		float: none;
+	} */
+	#demo {
+		width: 100%;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	#leader-board {
+		float: none;
+	}
+}
