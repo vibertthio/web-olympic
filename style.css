@@ -32,20 +32,19 @@ body {
 }
 
 
-#demo-div {
-	/* border: 1px solid; */
+/* #demo-div {
 	background-color: rgba(159, 112, 208, 0.1);
-	/* width: 60%; */
 	width: 390px;
 	height: 298px;
 	margin: 0 0 1rem 0;
 	padding: 10px;
 	float: left;
-}
+} */
 
 #demo {
-	width: 370px;
-	/* height: 100vh; */
+	width: 60%;
+	margin: 0 0 1rem 0;
+	/* width: 370px; */
 }
 
 #leader-board {
@@ -106,11 +105,11 @@ button:hover {
 }
 
 @media only screen and (max-width: 680px) {
-	#demo-div {
+	/* #demo-div {
 		width: 100%;
 		height: auto;
 		float: none;
-	}
+	} */
 	#demo {
 		width: 100%;
 	}
