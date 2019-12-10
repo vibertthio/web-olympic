@@ -86,7 +86,8 @@ button {
   font-size: 1rem;
   height: 40px;
   /* width: 120px; */
-  color: rgba(159, 112, 208, 1);
+	color: rgba(159, 112, 208, 1);
+	background-color: #fff;
   transition: color 0.3s;
 	transition: background-color 0.3s;
 	padding: 0 1.5rem 0 1.5rem;
