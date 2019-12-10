@@ -32,7 +32,7 @@ body {
 }
 
 
-#demo-gif {
+#demo-div {
 	/* border: 1px solid; */
 	background-color: rgba(159, 112, 208, 0.1);
 	/* width: 60%; */
@@ -42,7 +42,8 @@ body {
 	padding: 10px;
 	float: left;
 }
-#gif {
+
+#demo {
 	width: 370px;
 	/* height: 100vh; */
 }
@@ -105,22 +106,18 @@ button:hover {
 }
 
 @media only screen and (max-width: 680px) {
-	#demo-gif {
+	#demo-div {
 		width: 100%;
 		height: auto;
+		float: none;
 	}
-	#gif {
+	#demo {
 		width: 100%;
 	}
 	h1 {
 		font-size: 2rem;
 	}
-
 	#leader-board {
-		float: none;
-	}
-
-	#demo-gif {
 		float: none;
 	}
 }
