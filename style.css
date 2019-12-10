@@ -10,6 +10,7 @@ https://www.color-hex.com/color-palette/83132
   font-family: "IBM Plex Mono", monospace;
 	box-sizing: border-box;
 	color: #9f70d0;
+	line-height: 1.7rem;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
 
 #title-container {
 	text-align: center;
+	margin-bottom: 4rem;
 }
 
 body {
@@ -26,7 +28,7 @@ body {
 
 #container {
 	max-width: 650px;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 #demo-gif {
@@ -42,6 +44,49 @@ body {
 
 #leader-title {
 	margin-top: 0;
+}
+
+.link {
+  background-color: #fff;
+  color: #ff9a00;
+  padding: 2px;
+  transition: color 0.5s;
+}
+.link:hover {
+  color: #fff;
+  background-color: #ff9a00;
+  text-decoration: none;
+}
+
+.btn-wrapper {
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+  border: 1px solid;
+  font-size: 1rem;
+  height: 40px;
+  /* width: 120px; */
+  color: rgba(159, 112, 208, 1);
+  transition: color 0.3s;
+	transition: background-color 0.3s;
+	padding: 0 1.5rem 0 1.5rem;
+}
+
+button:hover {
+  border: 1px solid rgba(159, 112, 208, 1);
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgba(159, 112, 208, 1);
+}
+
+#footer {
+	margin-top: 3rem;
+	text-align: center;
 }
 
 @media only screen and (max-width: 680px) {
